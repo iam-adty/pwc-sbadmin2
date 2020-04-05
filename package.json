@@ -1,0 +1,8 @@
+{
+    "name": "pwc-sbadmin2",
+    "version": "0.1.0",
+    "description": "SBAdmin2 with PHP Web Component",
+    "dependencies": {
+        "startbootstrap-sb-admin-2": "^4.0.7"
+    }
+}

@@ -1,0 +1,50 @@
+{
+	"name": "iam-adty/pwc-sbadmin2",
+	"description": "SBAdmin2 with PHP Web Component",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Adty",
+			"email": "iam.adty@gmail.com"
+		}
+	],
+	"require": {
+		"iam-adty/php-web-component": "dev-develop"
+	},
+	"autoload": {
+		"psr-4": {
+			"PWC\\SBAdmin2\\": "src/"
+		}
+	},
+	"require-dev": {
+		"kint-php/kint": "^3.3"
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "../php-web-component",
+			"options": {
+				"symlink": false
+			}
+		}
+	],
+	"extra": {
+		"pwc": {
+			"CopyAssets": {
+				"startbootstrap-sb-admin-2/css": "sbadmin2/css",
+				"startbootstrap-sb-admin-2/img": "sbadmin2/img",
+				"startbootstrap-sb-admin-2/js": "sbadmin2/js",
+				"startbootstrap-sb-admin-2/vendor/bootstrap/js": "bootstrap/js",
+				"startbootstrap-sb-admin-2/vendor/chart.js": "chart.js",
+				"startbootstrap-sb-admin-2/vendor/datatables": "datatables",
+				"startbootstrap-sb-admin-2/vendor/fontawesome-free/css": "fontawesome-free/css",
+				"startbootstrap-sb-admin-2/vendor/fontawesome-free/js": "fontawesome-free/js",
+				"startbootstrap-sb-admin-2/vendor/fontawesome-free/sprites": "fontawesome-free/sprites",
+				"startbootstrap-sb-admin-2/vendor/fontawesome-free/svgs": "fontawesome-free/svgs",
+				"startbootstrap-sb-admin-2/vendor/fontawesome-free/webfonts": "fontawesome-free/webfonts",
+				"startbootstrap-sb-admin-2/vendor/jquery": "jquery",
+				"startbootstrap-sb-admin-2/vendor/jquery-easing": "jquery-easing"
+			}
+		}
+	}
+}
